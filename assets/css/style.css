@@ -24,7 +24,7 @@
 
 .text{
 
-    margin-left: 30px;
+    text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 }
@@ -48,6 +48,7 @@
 
 .im-model{
 
+    border-radius: 15px;
     height:300px;
     width:350px;
 }
@@ -60,6 +61,10 @@
     margin-bottom: 50px;
 }
 
+.marginleft{
+    margin-left: 50px;
+}
+
 .tm-social{
 
     width: 50px;
@@ -69,4 +74,61 @@
 }
 #background{
     background-color: #f8efed;
+}
+
+
+/* PAGINA CURIOSIDADES */
+
+#menuCR li{
+    display: inline;
+    padding: 15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#menuCR li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#menuCR li a:hover{
+    color: white;
+    font-size: 20px;
+}
+
+.containerCR{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    align-items: left;
+    color: white;
+
+}
+
+.containersubCR{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.textCR{
+
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+
+}
+
+
+.rodapeCR{
+
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+
 }
